@@ -8,9 +8,9 @@
     "3": "cd 3 && tsc index.ts && node index.js",
     "4": "cd 4 && tsc -lib es2016,dom index.ts && node index.js",
     "5": "cd 5 && tsc -lib es2016,dom index.ts && node index.js",
-    "6": "cd 6 && tsc -target es2016 index.ts && node index.js",
-    "7": "cd 7 && tsc -target es2016 -lib es2018,dom index.ts && node index.js",
-    "8": "cd 8 && tsc -target es2016 index.ts && node index.js",
+    "6": "cd 6 && tsc -lib es2016,dom index.ts && node index.js",
+    "7": "cd 7 && tsc -lib es2016,dom -lib es2018,dom index.ts && node index.js",
+    "8": "cd 8 && tsc -lib es2016,dom index.ts && node index.js",
     "9": "cd 9 && tsc -lib es2016,dom index.ts && node index.js",
     "10": "cd 10 && tsc -lib es2016,dom index.ts && node index.js"
   },
